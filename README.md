@@ -3,6 +3,8 @@ WebDAV (SabreDAV) Docker Image with authentication running on nginx.
 
 ## About
 
+Forked from fjudith/docker-nginx-webdav: Changed debian base image to ubuntu, now using PHP8-FPM and SabreDav 4.1.5
+
 This is probably the first one working WebDAV image for docker.
 It uses nginx as webserver and SabreDAV as WebDAV backend. This way this image is compatible with windows mounting.
 Also, it features a digest authentication.
